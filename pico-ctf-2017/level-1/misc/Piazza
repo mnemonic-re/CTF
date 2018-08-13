@@ -1,0 +1,16 @@
+**Piazza**
+
+> Piazza
+> Have questions about pico? You can ask here. The access code is 31337.
+
+> HINTS
+> ?
+
+**Writeup**
+
+Silly challenge. Will not go in-depth.
+
+Basically register with the access code and you can find the flag in the "Welcome"
+
+flag: flag{ask_and_hop3fully_we_can_help}
+
