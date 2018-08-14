@@ -3,22 +3,22 @@
 
 **Challenges:**
 
-Letter
-Floppy
-OCR is Cool!
-Moar
-Floppy2
-Security by Obscurity
-JS Safe
-Router-UI
-Firmware
-Gatekeeper
-Media-DB
-Admin UI
-Admin UI 2
-Admin UI 3
-Filter env
-Message of the Day
-Poetry
-Fridge TODO List
-Holey Beep
+Letter<br/>
+Floppy<br/>
+OCR is Cool!<br/>
+Moar<br/>
+Floppy2<br/>
+Security by Obscurity<br/>
+JS Safe<br/>
+Router-UI<br/>
+Firmware<br/>
+Gatekeeper<br/>
+Media-DB<br/>
+Admin UI<br/>
+Admin UI 2<br/>
+Admin UI 3<br/>
+Filter env<br/>
+Message of the Day<br/>
+Poetry<br/>
+Fridge TODO List<br/>
+Holey Beep<br/>
