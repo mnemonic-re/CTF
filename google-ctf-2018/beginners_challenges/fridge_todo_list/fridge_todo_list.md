@@ -32,17 +32,16 @@ Again in the source code we can see that idx is multiplied by LENGTH which is de
 
 Adress of todos is 0000000000203140. Lets check the addresses we can jump. In python to get address in GOT:
 
-> addr = 0x0203140
-> hex(addr - 48) 
-> '0x203110' # write
+> addr = 0x0203140<br/>
+> hex(addr - 48)<br/>
+> '0x203110' # write<br/>
 
-Exploit: [Exploit](https://github.com/robbie-re/CTF/blob/CTF/google-ctf-2018/beginners_challenges/admin_ui_part3/data/format_string_exploit.py "Admin UI 3 Format String")
+Exploit: [Exploit](https://github.com/robbie-re/CTF/blob/CTF/google-ctf-2018/beginners_challenges/fridge_todo_list/data/exploit.py "")
+
+After that just list the files in todos directory and you will see user "CountZero". You can then abort the connection, connect back and log into as that user and you will see the flag.
 
 flag: CTF{goo.gl/cjHknW} 
 
 
-
-
-> 
 
 
