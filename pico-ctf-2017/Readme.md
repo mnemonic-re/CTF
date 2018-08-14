@@ -2,6 +2,6 @@
 
 Visit to play:
 
-**![play](https://2017game.picoctf.com/game)***
+**[play](https://2017game.picoctf.com/game)**
 
 Enjoy, good luck and have fun!
