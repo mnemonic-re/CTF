@@ -10,7 +10,7 @@
 > This one covers key generation: https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html
 > Then, use the web shell to copy/paste it, and use the appropriate tool to ssh to the server using your key
 
-**Writeup*
+**Writeup**
 
 Ahh.. Cryptography :)
 
