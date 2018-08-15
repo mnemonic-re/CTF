@@ -16,4 +16,15 @@ Lets try to find a keyboard map: https://docs.mbed.com/docs/ble-hid/en/latest/ap
 
 Now we can see what each byte means in the "leftover capture data" section.
 
+On the website is says:
+
+[modifier, reserved, Key1, Key2, Key3, Key4, Key6]
+
+So we look in Leftover Capture Data: 0000090000000000 to get the flag and we have some more info: 
+0x20 = Right Shift and 0x01 = Left Ctrl
+
+Every other packet contains the value, in between is 0.
+
+090f04
+
 
