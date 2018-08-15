@@ -14,10 +14,10 @@ Okay, we need to nc to the shell again and see what is asked of us.
 
 So: nc shell2017.picoctf.com 26409 gets us:
 
-> To prove your skills, you must pass this test.
-> Please give me the 'd' character '571' times, followed by a single '4'.
-> To make things interesting, you have 30 seconds.
-> Input:
+> To prove your skills, you must pass this test.<br/>
+> Please give me the 'd' character '571' times, followed by a single '5'.<br/>
+> To make things interesting, you have 30 seconds.<br/>
+> Input:<br/>
 
 And also every time you connect if you fail you get another random character, number of times and follwed by values.
 
@@ -27,21 +27,20 @@ the response appropriately with your additions. Then just quickly copy\paste it 
 
 Like so:
 
-> robbie@zero:~# nc shell2017.picoctf.com 26409
-> To prove your skills, you must pass this test.
-> Please give me the 'f' character '738' times, followed by a single '5'.
->To make things interesting, you have 30 seconds.
-Input:
-fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5
-You got it! You're super quick!
-Flag: with_some_recognition_and_training_delusions_become_glimpses_7d7485288ece4edb059460b171dca22b
-robbie@zero:~# 
+> robbie@zero:~# nc shell2017.picoctf.com 26409<br/>
+> To prove your skills, you must pass this test.<br/>
+> Please give me the 'f' character '738' times, followed by a single '5'.<br/>
+>To make things interesting, you have 30 seconds.<br/>
+> Input:<br/>
+> fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff<br/>
+> fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff<br/>
+> fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff<br/>
+> fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff<br/>
+> fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff<br/>
+> fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff<br/>
+> ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5<br/>
+You got it! You're super quick!<br/>
+Flag: with_some_recognition_and_training_delusions_become_glimpses_7d7485288ece4edb059460b171dca22b<br/>
 
 So I connected with nc and timer then started. In another Terminal I pressed "ALT+7" and then just "38" because 7 is put inititally.
 Then I just added "5" at the end and copied the output to the Netcat terminal and hit Enter. Voila!
@@ -49,7 +48,4 @@ Then I just added "5" at the end and copied the output to the Netcat terminal an
 flag: with_some_recognition_and_training_delusions_become_glimpses_7d7485288ece4edb059460b171dca22b
 
 Your flag will be differnent because every connect is random.
-
-
-
 
