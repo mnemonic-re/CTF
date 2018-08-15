@@ -20,26 +20,26 @@ Must Read: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-
 
 So, lets do it. First we need to generate our key, both private and public.
 
-ssh-keygen -t rsa -b 4096 -C "robbie@example.com" - create ssh key with RSA 4096 encryption
+> ssh-keygen -t rsa -b 4096 -C "robbie@example.com" - create ssh key with RSA 4096 encryption
 
 After that it will ask you where to save it. Just at end type: ./your_username so it saves it as new:
 
-> Generating public/private rsa key pair.
-> Enter file in which to save the key (/root/.ssh/id_rsa): ./your_username
-> Enter passphrase (empty for no passphrase): 
-> Enter same passphrase again: 
-> Your identification has been saved in ./your_username.
-> Your public key has been saved in ./your_username.pub.
-> The key fingerprint is:
-> ....
+> Generating public/private rsa key pair.<br/>
+> Enter file in which to save the key (/root/.ssh/id_rsa): ./your_username<br/>
+> Enter passphrase (empty for no passphrase): <br/>
+> Enter same passphrase again: <br/>
+> Your identification has been saved in ./your_username.<br/>
+> Your public key has been saved in ./your_username.pub.<br/>
+> The key fingerprint is:<br/>
+> ....<br/>
 
 That will generate private and public keys.
 
 Next step is adding the key:
 
-> ssh-add <your_username>
-> Enter passphrase for your_username: 
-> Identity added: picoctf (your_username)
+> ssh-add <your_username><br/>
+> Enter passphrase for your_username: <br/>
+> Identity added: picoctf (your_username)<br/>
 
 Now your identity is the same as the ssh session running.
 
@@ -49,18 +49,18 @@ This will display your public key. You need this so copy everything starting fro
 
 Go back to the WebShell of the PicoCTF (Browser) and there type:
 
-cat > authorized_keys
+> cat > authorized_keys
 
 Small prompt will apear and here you paste your public key. Then press enter and ctrl+z to exit and that key will be added to the list
 of authorized_keys for ssh.
 
 Finally, SSH to the server and get the flag.
 
-ssh shell2017.picoctf.com
+> ssh shell2017.picoctf.com
 
 also in some cases you can add your username and do:
 
-ssh your_username@shell2017.picoctf.com
+> ssh your_username@shell2017.picoctf.com
 
 Lot of different options with SSH. Complicated stuff but worth investigating!
 
