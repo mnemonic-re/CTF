@@ -7,7 +7,7 @@ for(let i = 0 ; i < raw.length; i++)
 	tmp += ( raw[i] & 1 );
 	if( tmp.length === 8 )
 	{
-		rez += String.fromCharCode(parseInt(temp,2));
+		rez += String.fromCharCode(parseInt(tmp,2));
 		tmp = '';
 	}
 }
