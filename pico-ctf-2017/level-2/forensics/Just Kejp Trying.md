@@ -25,6 +25,10 @@ So we look in Leftover Capture Data: 0000090000000000 to get the flag and we hav
 
 Every other packet contains the value, in between is 0.
 
-090f04
+[Leftovers](https://github.com/robbie-re/CTF/blob/CTF/pico-ctf-2017/level-2/forensics/data/leftovers.txt "")
+
+So we reconstruct the flag as said in the Hints pdf file under "10 Keyboard/Keypad Page (0x07)" and we get:
+
+flag{pr355_0nwards_b8485d5f}
 
 
